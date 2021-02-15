@@ -1,0 +1,14 @@
+h1{font-family: Georgia, 'Times New Roman', Times, serif;font-weight: normal;font-size:20px;}
+.counterContainer   
+  {
+    width:800px;
+    span
+    {
+      width:350px;background-color:#00bfff;margin:10px 0px 0px 10px;float: left;padding:10px 10px;height:auto;color:white;
+      label{display:block}
+      textarea{width:90%;height:50px;color:black;resize: none;}
+      textarea:focus{border: 1px solid var(--color-accent);color:black;}      
+    }
+    .spanlast{min-height:80px;height:100%;max-height:100%;overflow-y:scroll}
+    
+  }
